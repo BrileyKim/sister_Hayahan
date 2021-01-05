@@ -15,147 +15,13 @@
 <title>하루에 한번 야채, 하야한</title>
 <!-- Favicon -->
 <link rel="icon" href="${path }/resources/bueno-master/img/core-img/favicon.ico">
-
 <!-- Stylesheet -->
 <link rel="stylesheet" href="${path }/resources/bueno-master/style.css">
 </head>
 <body>
-    <!-- Preloader -->
-    <div class="preloader d-flex align-items-center justify-content-center">
-        <div class="preloader-content">
-            <h3>Cooking in progress..</h3>
-            <div id="cooking">
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div id="area">
-                    <div id="sides">
-                        <div id="pan"></div>
-                        <div id="handle"></div>
-                    </div>
-                    <div id="pancake">
-                        <div id="pastry"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+<jsp:include page="/WEB-INF/views/common/structure/preloader.jsp"/>
 <jsp:include page="/WEB-INF/views/common/structure/header.jsp"/>
-    <!-- ##### Treading Post Area Start ##### -->
-    <div class="treading-post-area" id="treadingPost">
-        <div class="close-icon">
-            <i class="fa fa-times"></i>
-        </div>
-
-        <h4>Treading Post</h4>
-
-        <!-- Single Blog Post -->
-        <div class="single-blog-post style-1 d-flex flex-wrap mb-30">
-            <!-- Blog Thumbnail -->
-            <div class="blog-thumbnail">
-                <img src="${path }/resources/bueno-master/img/bg-img/9.jpg" alt="">
-            </div>
-            <!-- Blog Content -->
-            <div class="blog-content">
-                <a href="#" class="post-tag">The Best</a>
-                <a href="#" class="post-title">Friend eggs with ham</a>
-                <div class="post-meta">
-                    <a href="#" class="post-date">July 11, 2018</a>
-                    <a href="#" class="post-author">By Julia Stiles</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Single Blog Post -->
-        <div class="single-blog-post style-1 d-flex flex-wrap mb-30">
-            <!-- Blog Thumbnail -->
-            <div class="blog-thumbnail">
-                <img src="${path }/resources/bueno-master/img/bg-img/10.jpg" alt="">
-            </div>
-            <!-- Blog Content -->
-            <div class="blog-content">
-                <a href="#" class="post-tag">The Best</a>
-                <a href="#" class="post-title">Mushrooms with pork chop</a>
-                <div class="post-meta">
-                    <a href="#" class="post-date">July 11, 2018</a>
-                    <a href="#" class="post-author">By Julia Stiles</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Single Blog Post -->
-        <div class="single-blog-post style-1 d-flex flex-wrap mb-30">
-            <!-- Blog Thumbnail -->
-            <div class="blog-thumbnail">
-                <img src="${path }/resources/bueno-master/img/bg-img/11.jpg" alt="">
-            </div>
-            <!-- Blog Content -->
-            <div class="blog-content">
-                <a href="#" class="post-tag">The Best</a>
-                <a href="#" class="post-title">Birthday cake with chocolate</a>
-                <div class="post-meta">
-                    <a href="#" class="post-date">July 11, 2018</a>
-                    <a href="#" class="post-author">By Julia Stiles</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Single Blog Post -->
-        <div class="single-blog-post style-1 d-flex flex-wrap mb-30">
-            <!-- Blog Thumbnail -->
-            <div class="blog-thumbnail">
-                <img src="${path }/resources/bueno-master/img/bg-img/9.jpg" alt="">
-            </div>
-            <!-- Blog Content -->
-            <div class="blog-content">
-                <a href="#" class="post-tag">The Best</a>
-                <a href="#" class="post-title">Friend eggs with ham</a>
-                <div class="post-meta">
-                    <a href="#" class="post-date">July 11, 2018</a>
-                    <a href="#" class="post-author">By Julia Stiles</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Single Blog Post -->
-        <div class="single-blog-post style-1 d-flex flex-wrap mb-30">
-            <!-- Blog Thumbnail -->
-            <div class="blog-thumbnail">
-                <img src="${path }/resources/bueno-master/img/bg-img/10.jpg" alt="">
-            </div>
-            <!-- Blog Content -->
-            <div class="blog-content">
-                <a href="#" class="post-tag">The Best</a>
-                <a href="#" class="post-title">Mushrooms with pork chop</a>
-                <div class="post-meta">
-                    <a href="#" class="post-date">July 11, 2018</a>
-                    <a href="#" class="post-author">By Julia Stiles</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Single Blog Post -->
-        <div class="single-blog-post style-1 d-flex flex-wrap mb-30">
-            <!-- Blog Thumbnail -->
-            <div class="blog-thumbnail">
-                <img src="${path }/resources/bueno-master/img/bg-img/11.jpg" alt="">
-            </div>
-            <!-- Blog Content -->
-            <div class="blog-content">
-                <a href="#" class="post-tag">The Best</a>
-                <a href="#" class="post-title">Birthday cake with chocolate</a>
-                <div class="post-meta">
-                    <a href="#" class="post-date">July 11, 2018</a>
-                    <a href="#" class="post-author">By Julia Stiles</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Treading Post Area End ##### -->
-
+<jsp:include page="/WEB-INF/views/common/structure/trendingpost.jsp"/>
     <!-- ##### Hero Area Start ##### -->
     <div class="hero-area">
         <!-- Hero Post Slides -->
@@ -170,11 +36,11 @@
                 <!-- Blog Content -->
                 <div class="blog-content-bg">
                     <div class="blog-content">
-                        <a href="#" class="post-tag">Healthy Food</a>
+                        <a href="#" class="post-tag">Lettuce</a>
                         <a href="#" class="post-title">Chicken Salad</a>
                         <div class="post-meta">
-                            <a href="#" class="post-date">July 11, 2018</a>
-                            <a href="#" class="post-author">By Julia Stiles</a>
+                            <a href="#" class="post-date">January 4, 2020</a>
+                            <a href="#" class="post-author">By Briley Kim</a>
                         </div>
                     </div>
                 </div>
@@ -190,11 +56,11 @@
                 <!-- Blog Content -->
                 <div class="blog-content-bg">
                     <div class="blog-content">
-                        <a href="#" class="post-tag">Healthy Food</a>
+                        <a href="#" class="post-tag">Lettuce</a>
                         <a href="#" class="post-title">Chicken Salad</a>
                         <div class="post-meta">
-                            <a href="#" class="post-date">July 11, 2018</a>
-                            <a href="#" class="post-author">By Julia Stiles</a>
+                            <a href="#" class="post-date">January 4, 2020</a>
+                            <a href="#" class="post-author">By Briley Kim</a>
                         </div>
                     </div>
                 </div>
@@ -210,11 +76,11 @@
                 <!-- Blog Content -->
                 <div class="blog-content-bg">
                     <div class="blog-content">
-                        <a href="#" class="post-tag">Healthy Food</a>
+                        <a href="#" class="post-tag">Lettuce</a>
                         <a href="#" class="post-title">Chicken Salad</a>
                         <div class="post-meta">
-                            <a href="#" class="post-date">July 11, 2018</a>
-                            <a href="#" class="post-author">By Julia Stiles</a>
+                            <a href="#" class="post-date">January 4, 2020</a>
+                            <a href="#" class="post-author">By Briley Kim</a>
                         </div>
                     </div>
                 </div>
@@ -230,11 +96,11 @@
                 <!-- Blog Content -->
                 <div class="blog-content-bg">
                     <div class="blog-content">
-                        <a href="#" class="post-tag">Healthy Food</a>
+                        <a href="#" class="post-tag">Lettuce</a>
                         <a href="#" class="post-title">Chicken Salad</a>
                         <div class="post-meta">
-                            <a href="#" class="post-date">July 11, 2018</a>
-                            <a href="#" class="post-author">By Julia Stiles</a>
+                            <a href="#" class="post-date">January 4, 2020</a>
+                            <a href="#" class="post-author">By Briley Kim</a>
                         </div>
                     </div>
                 </div>

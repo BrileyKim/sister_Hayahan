@@ -8,7 +8,7 @@
     <header class="header-area">
 
         <!-- Top Header Area -->
-        <div class="top-header-area bg-img bg-overlay" style="background-image: url(img/bg-img/header.jpg);">
+        <div class="top-header-area bg-img bg-overlay" style="background-image: url(../resources/bueno-master/img/bg-img/header.jpg);">
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-between">
                     <div class="col-12 col-sm-6">
@@ -67,8 +67,8 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="index.html">Home</a></li>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Pages</a>
+                                    <li><a href="#">Study</a></li>
+                                    <li><a href="#">Storage</a>
                                         <ul class="dropdown">
                                             <li><a href="#">Home</a></li>
                                             <li><a href="#">Catagory</a></li>
@@ -78,7 +78,7 @@
                                             <li><a href="#">Contact</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Recipes</a>
+                                    <li><a href="#">Recipe</a>
                                         <div class="megamenu">
                                             <ul class="single-mega cn-col-4">
                                                 <li><a href="#">- Recipe</a></li>
@@ -118,13 +118,13 @@
                                             </ul>
                                         </div>
                                     </li>
-                                    <li><a href="single-post.html">Blog</a></li>
+                                    <li><a href="single-post.html">Board</a></li>
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
 
                                 <!-- Login/Register -->
                                 <div class="login-area">
-                                    <a href="#">Login / Register</a>
+                                    <a href="${path }/member/login.do">Login / Register</a>
                                 </div>
                             </div>
                             <!-- Nav End -->
